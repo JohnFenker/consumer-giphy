@@ -4,13 +4,13 @@ import { GifGrid } from './components/GifGrid';
 
 
 export const GifExpertApp = () => { 
-    const [categories, setCategories] = useState(['goku']);
+    const [categories, setCategories] = useState(['Goku']);
     //const handleAdd = () => {
     //     setCategories([...categories, 'Hunters']);
     //};
     return (
         <>
-            <h2>Gif exffvfsv</h2>
+            <h2>Giphy API Consumer</h2>
             <AddCategory setCategories={setCategories}/>
             <hr />
             <ol>
